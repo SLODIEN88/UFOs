@@ -51,7 +51,7 @@ function doubleAddition(c, d) {
 
 
 doubleAddition = (c, d) => addition(c, d) * 2;
-doubleAddition = (33, 25 ) => addition (33, 25) *2;
+// doubleAddition = (33, 25 ) => addition (33, 25) *2;
 
 let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
 function listLoop(userList) {
@@ -85,8 +85,8 @@ function buildTable(data) {
       }
     );
   });
-
-  function handleClick() {
+}
+function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
