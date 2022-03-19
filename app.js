@@ -56,7 +56,7 @@ function updateFilters() {
   function filterTable() {
   
     // 8. Set the filtered data to the tableData.
-    let filtered data = tableData;
+    let filteredData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
@@ -65,30 +65,11 @@ function updateFilters() {
     });
   
     // 10. Finally, rebuild the table using the filtered data
-    buildTable(filteredData)''
+    buildTable(filteredData);
   }
   
   // 2. Attach an event to listen for changes to each filter
-  
+  d3.selectAll("input").on("change", updateFilters);
   
   // Build the table when the page loads
   buildTable(tableData);
-
-
-
-
-
-
-
-
-  function filtercities(x){
-    
-    
-    
-    
-    
-    return x. >=}
-
-
-
-  }
